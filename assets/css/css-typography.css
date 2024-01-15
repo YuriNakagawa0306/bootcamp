@@ -1,0 +1,137 @@
+/* Colors */
+*{
+    color: rgb(0, 0, 0);
+}
+
+.color{
+    color: royalblue;
+}
+.rgb{
+    color: rgb(44, 167, 91);
+}
+.rgba{
+    color: rgba(155, 54, 54, 0.521);
+}
+.hexcode{
+    color: #2c8bca;
+}
+
+/* font-family */
+.serif{
+    font-family: serif;
+}
+.sans-serif{
+    font-family: sans-serif;
+}
+.monospace{
+    font-family: monospace;
+}
+
+/* font-size */
+/* all text display 16px-default size */
+.px{
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.em{
+    font-size: 2em;
+    font-family: sans-serif;
+}
+.percent{
+    font-size: 200%;
+    font-family: sans-serif;
+}
+
+/* font-weight */
+.bold{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.lighter{
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.weight100{
+    font-weight: 100;
+    font-family: sans-serif;
+}
+.weight900{
+    font-weight: 900;
+    font-family: sans-serif;
+}font style
+
+/* font style */
+.italic{
+    font-style: italic;
+    font-family: sans-serif;
+}
+.oblique{
+    font-style: oblique;
+    font-family: sans-serif;
+}
+
+/* text-transform */
+.lowercase{
+    text-transform: lowercase;
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+
+/* text-decoration */
+.underline{
+    text-decoration: underline;
+}
+.overline{
+    text-decoration: overline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.none{
+    text-decoration: none;
+}
+
+/* text align */
+.right{
+    text-align: right;
+}
+.center{
+    text-align: center;
+}
+.left{
+    text-align: left;
+}
+
+/* text indent */
+.text-indent-px{
+    text-indent: 30px;
+}
+.text-indent-percent{
+    text-indent: 90%;
+}
+.text-indent-em{
+    text-indent: 2em;
+}
+
+/* letter spacing */
+.letter-spacing-5px{
+    letter-spacing: 5px;
+}
+.letter-spacing-15px{
+    letter-spacing: 15px;
+}
+
+/* word spacing */
+.word-spacing-20px{
+    word-spacing: 20px;
+}
+.word-spacing-30px{
+    word-spacing: 30px;
+}
+.word-spacing-minus-10px{
+    word-spacing: -10px;
+}

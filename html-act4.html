@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Activity 4</title>
+
+    <style>
+        h1{
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <h1>Please fill this survey form</h1>
+    <form action="https://kredo.jp">
+        <table>
+            <tr>
+                <td><label for="firstname">First Name:</label></td>
+                <td><input type="text" name="firstname" id="firstname"></td>
+                <td><label for="mi">MI:</label></td>
+                <td><input type="text" name="mi" id="mi"></td>
+                <td><label for="lastname">Last Name:</label></td>
+                <td><input type="text" name="lastname" id="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td><input type="text" name="city" id="city"></td>
+                <td><label for="state">State:</label></td>
+                <td><input type="text" name="state" id="state"></td>
+                <td><label for="zipcode">Zip Code:</label></td>
+                <td><input type="number" name="zipcode" id="zipcode"></td>
+            </tr>
+        </table><br>
+
+        <div>
+            <label for="">Choose a Sport:</label><br>
+            <input type="checkbox" name="sport" value="basketball" id="basketball">
+            <label for="basketball">Basketball</label>
+
+            <input type="checkbox" name="sport" value="football" id="football">
+            <label for="football">Football</label>
+
+            <input type="checkbox" name="sport" value="hockey" id="hockey">
+            <label for="hockey">Hockey</label>
+        </div><br>
+        
+        <div>
+            <label for="">Choose a Year:</label><br>
+            <input type="radio" name="year" value="freshman" id="freshman">
+            <label for="freshman">Freshman</label>
+
+            <input type="radio" name="year" value="sophomore" id="sophomore">
+            <label for="sophomore">Sophomore</label>
+
+            <input type="radio" name="year" value="junior" id="junior">
+            <label for="junior">Junior</label>
+
+            <input type="radio" name="year" value="senior" id="senior">
+            <label for="senior">Senior</label>
+        </div><br>
+
+        <div>
+            <label for="favorite_food">Choose Your Favorite Food:</label><br>
+            <select name="favorite_food" id="favorite_food" multiple>
+                <option value="chips">Chips</option>
+                <option value="pizza">Pizza</option>
+                <option value="nachos">Nachos</option>
+            </select>
+        </div><br>
+
+        <div>
+            <textarea name="comment" id="comment" cols="50" rows="10" placeholder="Please let us know your comments"></textarea>
+        </div>
+
+        <input type="submit" name="send" value="Send it">
+        <input type="reset" name="clear" value="Clear it"> 
+    </form>
+</body>
+</html>

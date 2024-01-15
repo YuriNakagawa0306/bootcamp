@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Element</title>
+</head>
+<body>
+    <h1>Simple Form</h1>
+    <form action="https://kredo.jp" method="get">
+        <label for="full_name">Full Name</label>
+        <input type="text" name="full_name" id="full_name" placeholder="First Name Last Name" required>
+
+        <input type="submit" name="btn-submit" value="Send">
+    </form>
+
+    <h2>Registration Form</h2>
+    <form action="" method="get">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname">
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname">
+
+        <label for="email_address">Email Address</label>
+        <input type="email" name="email_address" id="email_address">
+
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password">
+
+        <label for="telephone">Telephone</label>
+        <input type="tel" name="telephone" id="telephone">
+
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="60" required>
+
+        <label for="bday">Birthday</label>
+        <input type="date" name="birthday" id="bday">
+
+        <p>Choose your gender</p>
+        
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Male</label>
+
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Female</label>
+
+        <input type="radio" name="gender" value="lgbt" id="lgbt">
+        <label for="lgbt">LGBT</label>
+
+        <p>Choose your favorite food/s</p>
+        
+        <input type="checkbox" name="food" value="ramen" id="ramen">
+        <label for="ramen">Ramen</label>
+
+        <input type="checkbox" name="food" value="sushi" id="sushi">
+        <label for="sushi">Sushi</label>
+
+        <input type="checkbox" name="food" value="curry" id="curry">
+        <label for="curry">Curry</label>
+
+        <div>
+            <label for="country">Select Your Country</label>
+            <select name="country" id="country" multiple>
+                <option value="japan">Japan</option>
+                <option value="philippines">Philippines</option>
+                <option value="korea">Korea</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your text here."></textarea>
+        </div>
+
+        <label for="">Uproad Photo</label>
+        <input type="file" name="photo" id="photo">
+
+        <!-- buttons -->
+        <input type="submit" name="submit" value="Register">
+
+        <button type="submit" name="submit">Sent</button>
+    </form>
+</body>
+</html>
